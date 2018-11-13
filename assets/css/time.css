@@ -1,0 +1,43 @@
+.countdowm {
+    text-align: center;
+}
+
+.broadcast {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.webinar {
+    margin: 40px 35px;
+}
+
+.webinar p {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 25px;
+}
+
+.webinar ul {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.webinar>ul>li {
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.webinar>ul>li::before {
+    content: '✔';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #d80027;
+    font-weight: bold;
+    font-size: 25px;
+}

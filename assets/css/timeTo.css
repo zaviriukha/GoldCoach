@@ -1,0 +1,82 @@
+figure,
+figcaption {
+    display: block;
+}
+
+.transition {
+    -webkit-transition: top 400ms linear;
+    -moz-transition: top 400ms linear;
+    -ms-transition: top 400ms linear;
+    -o-transition: top 400ms linear;
+    transition: top 400ms linear;
+}
+
+.timeTo {
+    font-family: Tahoma, Verdana, Aial, sans-serif;
+    font-size: 28px;
+    line-height: 102%;
+    font-weight: 300;
+    height: 32px;
+}
+
+.timeTo span {
+    vertical-align: top;
+}
+
+.timeTo.timeTo-white div {
+    color: black;
+    background: #ffffff;
+}
+
+.timeTo.timeTo-black div {
+    color: white;
+    background: #45484d;
+}
+
+.timeTo.timeTo-black .timeTo-alert {
+    background: #a74444;
+}
+
+.timeTo.timeTo-white .timeTo-alert {
+    background: #ffffff;
+}
+
+.timeTo figure {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.timeTo figcaption {
+    text-align: center;
+    line-height: 80%;
+    font-weight: normal;
+    color: #888;
+}
+
+.timeTo div {
+    position: relative;
+    display: inline-block;
+    border-top: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+    overflow: hidden;
+}
+
+.timeTo div.first {
+    border-left: 1px solid silver;
+}
+
+.timeTo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 3px;
+}
+
+.timeTo ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

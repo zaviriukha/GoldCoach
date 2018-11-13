@@ -1,0 +1,19 @@
+html {
+    line-height: 1.15;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Sans',
+        sans-serif;
+}
+
+section {
+    width: 100%;
+}
+
+.wrap {
+    max-width: 1180px;
+    margin: 0px auto;
+}

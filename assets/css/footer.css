@@ -1,0 +1,24 @@
+.footer {
+    padding: 20px 0px;
+}
+
+.totals {
+    text-align: center;
+    font-size: 30px;
+    background-color: #ff621f;
+    padding: 20px 30px;
+}
+
+.soc {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.soc a {
+    color: #ff621f;
+}
+
+.soc a:hover {
+    color: #020001;
+}

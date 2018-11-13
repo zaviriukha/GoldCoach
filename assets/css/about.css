@@ -1,0 +1,28 @@
+.about {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    max-width: 100%;
+    margin: 0px auto;
+    margin-top: 0px;
+    background-position: center;
+    margin-top: 45px;
+}
+
+.about h3 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    padding: 0px 125px;
+    margin: 35px 0px;
+}
+
+.desc {
+    font-size: 21px;
+    padding: 0px 175px 35px;
+    line-height: 25px;
+}
+
+.about strong {
+    font-size: 27px;
+}

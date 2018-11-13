@@ -1,0 +1,86 @@
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.when,
+.time {
+    width: 50%;
+    padding: 30px 20px;
+}
+
+.when {
+    background-color: #ff621f;
+}
+
+.time {
+    background-color: #eaeaea;
+}
+
+.date {
+    display: flex;
+    justify-content: space-around;
+}
+
+.calendar {
+    width: 25%;
+}
+
+.where {
+    width: 60%;
+}
+
+.day,
+.month {
+    font-size: 30px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.month {
+    border-bottom: 2px #fff dashed;
+}
+
+.data-time {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 13px;
+    line-height: 28px;
+}
+
+.speaker {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.master {
+    font-size: 22px;
+    color: #fff;
+    margin-top: 30px;
+    font-family: "Roboto Mono", monospace;
+    font-style: italic;
+}
+
+.master-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Roboto Mono", monospace;
+    margin-top: 18px;
+}
+
+.biography {
+    margin: 45px 60px;
+}
+
+.biography>ul>li {
+    list-style-type: disc;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+}
